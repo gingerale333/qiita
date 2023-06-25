@@ -9,7 +9,7 @@
 /**
  * 会社名一覧を表示
  */
-function popupConfirmGetAll() {
+function popupConfirmGetNameArr() {
     console.info('User Javascript is running.');
 
     //ページ遷移処理
@@ -37,4 +37,4 @@ function popupConfirmGetAll() {
 }
 
 // ページの読み込み完了時に実行
-window.onload = popupConfirmGetAll;
+window.onload = popupConfirmGetNameArr;
