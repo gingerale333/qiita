@@ -1,15 +1,14 @@
 /**
  * 検索結果として表示中の会社名リストを表示
- * 現在の表示内容のみ対象、OKで次のページへ遷移
  * 
  * Google Chrome 拡張機能「User JavaScript and CSS」使用
  * @author gingerale333
  */
 
 /**
- * 会社名一覧を表示
+ * 会社名一覧を表示しOKで次ページへ遷移
  */
-function popupConfirmGetNameArr() {
+function popupNameArrAndConfirmGoNext() {
     console.info('User Javascript is running.');
 
     //ページ遷移処理
@@ -37,4 +36,4 @@ function popupConfirmGetNameArr() {
 }
 
 // ページの読み込み完了時に実行
-window.onload = popupConfirmGetNameArr;
+window.onload = popupNameArrAndConfirmGoNext;
